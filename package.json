@@ -1,0 +1,21 @@
+{
+  "name": "neon-breakout",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/chapter-system.test.ts"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.12",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}

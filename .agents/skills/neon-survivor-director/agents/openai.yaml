@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neon Survivor Director"
+  short_description: "Neon survivor 游戏设计与导演系统规范"
+  default_prompt: "用 neon-survivor-director 规范来设计/实现霓虹幸存者游戏与导演系统。"
